@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
                      
         Scanner input = new Scanner(System.in);
-        System.out.println("Введите выражение: ");
+        System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ ГўГ»Г°Г Г¦ГҐГ­ГЁГҐ: ");
         String userInput = input.nextLine();
                 
           String[] tokens = userInput.split(" ");
@@ -118,7 +118,7 @@ public class Main {
       }
     }
     
-    public static String romanSolution(int arabNumeral) {
+    public static String romanSolution(int arabNumeral)  {
         String[] romanAll = {"O", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"};
         String q = romanAll[arabNumeral];
         return q;
