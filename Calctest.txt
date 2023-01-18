@@ -1,11 +1,11 @@
 import java.util.Scanner;
  
-public class Main {
+public class Calctest {
    
     public static void main(String[] args) {
                      
         Scanner input = new Scanner(System.in);
-        System.out.println("Введите выражение: ");
+        System.out.print("Введите выражение: ");
         String userInput = input.nextLine();
                 
           String[] tokens = userInput.split(" ");
